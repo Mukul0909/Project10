@@ -2,9 +2,8 @@
 
 body{
     background-image: url("10pro.jpg");
-    background-size: 100% 50%;
+    background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    box-sizing: border-box;
     /* margin: 0;
     padding: 0; */
     background-repeat: no-repeat;
@@ -218,4 +217,21 @@ body{
     position: relative;
     left: 24%;
     top: -38.7em;
+}
+
+@media only screen and (max-width: 1200px){
+.list{
+    display: none;
+}
+
+.rightsection{
+    display: none;
+}
+
+.heading h1{
+    text-align: center;
+}
+.line{
+    display:none;
+}
 }
